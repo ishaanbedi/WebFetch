@@ -7,6 +7,7 @@ WebFetch has no external dependencies. It only relies on the built-in Foundation
 ### Installation
 
 You can install WebFetch using Swift Package Manager. Add the following line to your `Package.swift` file:
+
 ```swift
 .package(url: "https://github.com/ishaanbedi/WebFetch.git", from: "1.0.0")
 ```
@@ -64,6 +65,10 @@ struct ContentView: View {
     }
 }
 ```
+
+Note: It's important to handle the JSON data returned by the API properly, as the structure and content of the JSON data can vary depending on the API you're using. The above code snippet is just an example of how to use WebFetch in a SwiftUI application. The code snippet does not handle the JSON data returned by the API properly.
+
+When using `WebFetch` in a SwiftUI application, make sure to parse the JSON data returned by the API properly and handle any errors that may occur during the process by keeping in mind that the `fetch` method of the `WebFetch` class returns a `Result<Data, Error>` object, where Data represents the raw data returned by the API and Error represents any error that occurred during the fetch operation and how you can manipulate this structure and the raw data returned by the API to extract the data you need as per the requirements of your application using your understanding of Swift and JSON logic.
 
 ### License
 
