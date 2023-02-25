@@ -67,4 +67,4 @@ struct ContentView: View {
 
 ### License
 
-WebFetch is released under the MIT license. See LICENSE file for details.
+WebFetch is released under the MIT license. See [LICENSE](LICENSE) for details.
