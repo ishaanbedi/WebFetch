@@ -1,8 +1,10 @@
 import Foundation
+
 public class WebFetch {
     /// - Parameters:
     ///   - url: The URL of the web API to fetch data from
     ///   - completion: The completion handler to call with the fetched data or an error
+    public init() {} 
     public func fetch(url: String, completion: @escaping (Result<Any, Error>) -> Void) {
         guard let url = URL(string: url) else {
             let error = NSError(domain: "com.example.app", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"])
