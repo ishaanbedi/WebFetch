@@ -8,7 +8,7 @@ WebFetch has no external dependencies. It only relies on the built-in Foundation
 
 You can install WebFetch using Swift Package Manager. Add the following line to your `Package.swift` file:
 
-### Usabe
+### Usage
 
 To use WebFetch, simply create an instance of the `WebFetch` class and call its `fetch` method with the URL of the API and a completion handler. The completion handler will be called with a `Result<Any, Error>` object containing either the fetched data or an error.
 
