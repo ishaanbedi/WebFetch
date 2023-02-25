@@ -68,6 +68,11 @@ struct ContentView: View {
 
 Note: It's important to handle the JSON data returned by the API properly, as the structure and content of the JSON data can vary depending on the API you're using. The above code snippet is just an example of how to use WebFetch in a SwiftUI application. The code snippet does not handle the JSON data returned by the API properly.
 
+Check out the [Kanye-Said-WebFetch-Example](https://github.com/ishaanbedi/Kanye-Said-WebFetch-Example) example application to learn how to use `WebFetch` to retrieve a random Kanye West quote from an API and display it in a SwiftUI view.
+
+Link: https://github.com/ishaanbedi/Kanye-Said-WebFetch-Example
+
+
 When using `WebFetch` in a SwiftUI application, make sure to parse the JSON data returned by the API properly and handle any errors that may occur during the process by keeping in mind that the `fetch` method of the `WebFetch` class returns a `Result<Data, Error>` object, where Data represents the raw data returned by the API and Error represents any error that occurred during the fetch operation and how you can manipulate this structure and the raw data returned by the API to extract the data you need as per the requirements of your application using your understanding of Swift and JSON logic.
 
 ### License
