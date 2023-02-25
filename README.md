@@ -7,10 +7,9 @@ WebFetch has no external dependencies. It only relies on the built-in Foundation
 ### Installation
 
 You can install WebFetch using Swift Package Manager. Add the following line to your `Package.swift` file:
-
-    ```swift
-    .package(url: "https://github.com/ishaanbedi/WebFetch.git", from: "1.0.0")
-    ```
+```swift
+.package(url: "https://github.com/ishaanbedi/WebFetch.git", from: "1.0.0")
+```
 
 ### Usage
 
