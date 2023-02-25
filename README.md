@@ -1,12 +1,16 @@
 # WebFetch
 
-WebFetch is a  Swift package for fetching data from a web API. It provides a convenient method for fetching JSON data from a given URL. `WebFetch` provides one public method, `fetch`, which takes a URL as input parameter. This makes it easy to use and understand.
+WebFetch is a Swift package for fetching data from a web API. It provides a convenient method for fetching JSON data from a given URL. `WebFetch` provides one public method, `fetch`, which takes a URL as input parameter. This makes it easy to use and understand.
 
 WebFetch has no external dependencies. It only relies on the built-in Foundation framework, which makes it easy to integrate into any Swift project without worrying about managing external dependencies.
 
 ### Installation
 
 You can install WebFetch using Swift Package Manager. Add the following line to your `Package.swift` file:
+
+    ```swift
+    .package(url: "https://github.com/ishaanbedi/WebFetch.git", from: "1.0.0")
+    ```
 
 ### Usage
 
