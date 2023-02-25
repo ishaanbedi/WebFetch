@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "WebFetch",
             dependencies: []),
-        .testTarget(
-            name: "WebFetchTests",
-            dependencies: ["WebFetch"]),
     ]
 )
